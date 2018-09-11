@@ -3,6 +3,19 @@
 ## Before Usage
 
 * make sure your node **version > 8.0**
+* change package.json info for your lambda function
+  * name
+  * description
+  * author
+
+```
+{
+  "name": "claudia-lambda-boilerplate",
+  "description": "Use claudia.js deploy lambda function boilerplate",
+  "author": "Soar <soar.lin@gmail.com>",
+}
+```
+
 * edit package.json config to meet your needs
 * default
   * aws region is `ap-northeast-1`
@@ -17,7 +30,6 @@
     "timeout": "5"
   }
 ```
-
 
 ## Add your role policies
 
