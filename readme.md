@@ -48,3 +48,9 @@ npm run deploy
 ```
 npm run update
 ```
+
+* lint js file
+
+```
+npm run lint
+```
