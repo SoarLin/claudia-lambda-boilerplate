@@ -1,7 +1,7 @@
 {
   "name": "claudia-lambda-boilerplate",
   "version": "1.0.0",
-  "description": "User claudia.js deploy lambda function boilerplate",
+  "description": "Use claudia.js deploy lambda function boilerplate",
   "main": "index.js",
   "config": {
     "profile": "default",
