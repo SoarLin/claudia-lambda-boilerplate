@@ -1,0 +1,31 @@
+{
+  "extends": "",
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 8
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "strict": ["error", "global"],
+    "no-unused-vars": ["error", {
+      "vars": "all",
+      "args": "after-used"
+    }],
+    "indent": ["error", 2 ],
+    "no-const-assign": "error",
+    "one-var": ["error", {
+      "var": "always",
+      "let": "never",
+      "const": "never"
+    }],
+    "prefer-const": "error",
+    "no-var": "error",
+    "require-await": "error",
+    "prefer-arrow-callback": "error",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "quotes": ["error", "single", {"avoidEscape": true, "allowTemplateLiterals": true}]
+  }
+}
